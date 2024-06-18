@@ -7,3 +7,4 @@ sqlalchemy
 opentelemetry-launcher==0.17b0
 opentelemetry-instrumentation-requests==0.17b0
 opentelemetry-instrumentation-flask==0.17b0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
