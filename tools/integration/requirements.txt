@@ -5,3 +5,4 @@ pytest
 requests
 retry
 opentelemetry-instrumentation-requests==0.18b0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
