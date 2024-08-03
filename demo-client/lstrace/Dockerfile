@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.13.0b4
 RUN pip install environs ls-trace pyyaml
 ADD *.py /app/
 CMD ["ls-trace-run", "/usr/local/bin/python", "/app/client.py"]
