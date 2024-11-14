@@ -1,4 +1,4 @@
-FROM maven:3.6.3-jdk-8 AS build
+FROM maven:3.8.6-jdk-8 AS build
 
 RUN apt-get update
 RUN apt-get install -y curl
