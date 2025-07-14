@@ -1,7 +1,8 @@
 opentelemetry-launcher==1.0.0rc1
-protobuf==3.13.0
+protobuf==4.25.8
 pyyaml
 pytest
 requests
 retry
 opentelemetry-instrumentation-requests==0.18b0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
