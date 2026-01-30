@@ -1,4 +1,4 @@
-protobuf==3.13.0
+protobuf==6.33.5
 flask
 pymongo
 redis
